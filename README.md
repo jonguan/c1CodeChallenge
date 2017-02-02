@@ -4,6 +4,8 @@ Thank you for taking the time to complete our coding exercise.
 At the top level repository, there is a background writeup in sb-prob.png
 Please take a look.
 
+![Problem Description](./sb-prob.png)
+
 # Requirements
 All unit tests must pass.
 Unit tests are located at ./src/test/java/iPhoneTest.java
