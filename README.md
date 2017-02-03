@@ -7,9 +7,9 @@ Please take a look.
 ![Problem Description](./sb-prob.png)
 
 # Requirements
-All unit tests must pass.
-Unit tests are located at ./src/test/java/iPhoneTest.java
-Use as much of the stub code as you wish.  You can use all, part, or none of the code.
+All unit tests must pass. Unit tests may not be modified.  
+Unit tests are located at `./src/test/java/iPhoneTest.java`  
+Use as much of the stub code as you wish.  You can use all, part, or none of the code.  
 
 # Grading Criteria
 1. Unit tests must pass.
