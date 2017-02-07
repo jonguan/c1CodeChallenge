@@ -5,7 +5,7 @@ public class iPhone
     public void setDecaf(String s)
     {
         // input: NO, YES and 1/2
-        
+            
     }
     
     public void setShots(String s)
