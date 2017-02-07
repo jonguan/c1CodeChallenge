@@ -1,19 +1,26 @@
-public class Decaf implements IRobotCommand
-{
-    private IRobotCommand component ;
+public class Decaf implements IRobotCommand {
+	private IRobotCommand component;
+	private String option = "";
 
-    public Decaf(IRobotCommand c)
-    {
-        this.component = c ;
-    }
+	public Decaf(IRobotCommand c) {
+		this.component = c;
+	}
 
-    public String getCommand( ) 
-    {
-        return "" ; 
-    }
-    
-    public void setOption(String o) 
-    {
-         
-    }
+	public String getCommand() {
+		
+		if (option.isEmpty()) {//check option is empty or not
+			return component.getCommand();//return command of next component if option is empty
+		}
+		return "Decaf[" + option + "] " + component.getCommand();//return Decaf[option ] and command of next component
+	}
+
+	public void setOption(String o) {
+		option = o;
+
+	}
+
+	public void setComponent(IRobotCommand component) {
+		// TODO Auto-generated method stub
+		this.component = component;
+	}
 }
