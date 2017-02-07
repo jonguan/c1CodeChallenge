@@ -71,8 +71,11 @@ public class iPhoneTest
         iPhone6.setDrink("L");
         assertEquals("Robot: Shots[3] Milk[NF] Drink[L]", iPhone6.sendCommand());
     }
-    
-
+    @Test
+	public void test6() {
+		iPhone6.setShots("3");
+		iPhone6.setDrink("L");
+		assertEquals("Robot: Shots[3] Drink[L]", iPhone6.sendCommand());
+	}
 
 }
-
